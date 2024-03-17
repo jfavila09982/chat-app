@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Box from './components/Box';
+import Home from './pages/Home'
+
 
 function App() {
   return (
     <div className="App">
-      Panot
+ 
+      <Home/>
     </div>
   );
 }
